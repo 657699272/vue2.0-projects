@@ -1,0 +1,15 @@
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+npm config set registry http://registry.npmjs.org
+npm config set registry  https://registry.npm.taobao.org/
+
+web搭建框架几个重要的点
+1、路由
+
+2、http请求
+
+3、自适应
+
+4、缓存
+
+5、安全
+

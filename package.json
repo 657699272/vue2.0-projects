@@ -10,6 +10,7 @@
   "dependencies": {
     "@shenbinghui/vue-ui-components-shenbinghui-test": "^0.1.2",
     "core-js": "^3.6.5",
+    "element-ui": "^2.14.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
