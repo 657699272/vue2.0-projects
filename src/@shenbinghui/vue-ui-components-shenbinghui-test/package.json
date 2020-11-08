@@ -1,0 +1,80 @@
+{
+  "_from": "@shenbinghui/vue-ui-components-shenbinghui-test",
+  "_id": "@shenbinghui/vue-ui-components-shenbinghui-test@0.1.2",
+  "_inBundle": false,
+  "_integrity": "sha1-L6pmArp+9i1YrcC/TeEQDZ5IX/o=",
+  "_location": "/@shenbinghui/vue-ui-components-shenbinghui-test",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@shenbinghui/vue-ui-components-shenbinghui-test",
+    "name": "@shenbinghui/vue-ui-components-shenbinghui-test",
+    "escapedName": "@shenbinghui%2fvue-ui-components-shenbinghui-test",
+    "scope": "@shenbinghui",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/@shenbinghui/vue-ui-components-shenbinghui-test/download/@shenbinghui/vue-ui-components-shenbinghui-test-0.1.2.tgz",
+  "_shasum": "2faa6602ba7ef62d58adc0bf4de1100d9e485ffa",
+  "_spec": "@shenbinghui/vue-ui-components-shenbinghui-test",
+  "_where": "D:\\shenbinghui\\vue-test",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "bundleDependencies": false,
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "user": "0.0.0",
+    "vue": "^2.6.11"
+  },
+  "deprecated": false,
+  "description": "## Project setup ``` npm install ```",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
+  "main": "./dist/vue-ui-components-shenbinghui-test.common.js",
+  "name": "@shenbinghui/vue-ui-components-shenbinghui-test",
+  "private": false,
+  "scripts": {
+    "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name vue-ui-components-shenbinghui-test ./src/components/index.js",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve"
+  },
+  "version": "0.1.2"
+}

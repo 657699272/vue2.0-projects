@@ -1,0 +1,17 @@
+一、【mockjs】模拟接口
+参考文件：https://www.jianshu.com/p/02df2e462c71
+
+二、【axios】
+需要二次封装，根据项目配置
+
+三、【引入自定义组件】
+两种方式：
+1、发布到npm,然后通过npm install --save xxx 下载组件并在项目中引入
+import '/@shenbinghui/vue-ui-components-shenbinghui-test/'
+
+2、直接把打包生成的dist文件和package.json文件放在项目中，然后引入
+import './@shenbinghui/vue-ui-components-shenbinghui-test/'
+导入的名称对应package.json的
+"name": "@shenbinghui/vue-ui-components-shenbinghui-test",
+
+
