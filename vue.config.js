@@ -1,3 +1,12 @@
 module.exports = {
-    lintOnSave:false
+    lintOnSave:false,
+    proxyTable:{
+        '/api':{
+            target:"URL",
+            changeOrigin:true,
+            pathRewrite:{
+                   '^/api':""
+            }
+        }
+    }
 }
