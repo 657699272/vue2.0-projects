@@ -1,14 +1,21 @@
 <template>
   <div>
-    这是我的首页，学习用的
+    <div>这是我的首页，学习用的,前端框架需要用的基本要素</div> 
+    <p>1、自适应、浏览器兼容性</p>
+    <p>2、请求的接口处理，包括正确返回和错误处理，必要时配置一个错误码，便于对问题分类</p>
+    <p>3、axios的二次封装处理</p>
+    <p>4、本地调试，使用mock</p>
+    <p>5、组件的编写（不要牵扯到业务，接口等，扩展性好，便于维护）</p>
+    <p>6、前后端分离，安全性，cookie,accessToken,登录超时等跳转处理</p>
+    <p>7、拥抱最新的技术，ts,vue3,等</p>
+    <p>8、项目结构的设计（有的人一个vue文件搞定一个页面所有逻辑，这是
+      有问题的，不便于项目维护，代码冗余。最好是vue文件只处理和页面相
+      关的逻辑，接口、配置、校验、公共方法等都可以放在各自的js文件中）
+    </p>
   </div>
 </template>
 
 <script>
-import axios from 'axios'
-import api from '@/api/login'
-import {request} from '@/api/http.js'
-
 export default {
   
 }

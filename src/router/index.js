@@ -24,6 +24,11 @@ const routes = [
     path: '/axiosTest',
     name: 'axiosTest',
     component: () => import('../views/axiosTest.vue')
+  },
+  {
+    path: '/compositionApi',
+    name: 'compositionApi',
+    component: () => import('../views/compositionApi.vue')
   }
 ]
 

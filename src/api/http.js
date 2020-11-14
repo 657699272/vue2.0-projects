@@ -150,6 +150,7 @@ export function createApi(urls,serviceName='',{
                 baseURL:apiBaseUrl,
                 method:param.method,
                 url:nurl,
+                onUploadProgress:param.onUploadProgress,
                 ...param.method.toLowerCase() == 'post'? //post请求
                 {
                     data:requestData,
@@ -171,7 +172,7 @@ export function createApi(urls,serviceName='',{
                         return formData;
                     },
                     headers:{
-                        'Content-Type':'application/json;charset=UTF-8',
+                        'Content-Type':'multipart/form-data',
                     }
                 }:{},
                 ...(typeof baseURL !== undefined)?

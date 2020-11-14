@@ -4,7 +4,7 @@ import './@shenbinghui/vue-ui-components-shenbinghui-test/'
 // require('./vue-ui-components-shenbinghui-test.common.js')
 import ElementUI from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
-require('../mock/index.js') //引入mock
+// require('../mock/index.js') //引入mock
 import router from './router/index'
 
 Vue.use(ElementUI)
