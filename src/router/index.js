@@ -29,6 +29,11 @@ const routes = [
     path: '/compositionApi',
     name: 'compositionApi',
     component: () => import('../views/compositionApi.vue')
+  },
+  {
+    path: '/vueTs',
+    name: 'typescript',
+    component: () => import('../views/vueTs.vue')
   }
 ]
 

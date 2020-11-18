@@ -5,6 +5,7 @@
       <router-link to="/uiComponents">ui组件库</router-link> |
       <router-link to="/axiosTest">HTTP请求</router-link> |
       <router-link to="/compositionApi">组合式api</router-link> |
+      <router-link to="/vueTs">vue引TS</router-link> |
     </div>
     <router-view/>
   </div>
